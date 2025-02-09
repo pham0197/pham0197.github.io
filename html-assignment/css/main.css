@@ -1,0 +1,57 @@
+body {
+    background-color: ivory;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+background-color: bisque;
+}
+
+.site-title {
+    color: #433801;
+    text-align: center;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.hobby-list {
+    list-style-type: square;
+}
+
+.hobby-list li:nth-child(odd) {
+    background-color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    background-color: rgb(162, 71, 6);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+.nav-list li a:hover {
+    background-color: bisque;
+    color: #433801;
+}
+
+blockquote {
+    background-color: bisque;
+    font-family: fantasy;
+}
+
+h1, h2, h3 {
+    color: #8f820d;
+}
+
+footer div {
+    text-align: center;
+}
