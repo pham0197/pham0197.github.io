@@ -1,0 +1,117 @@
+/* Set color, max width and margin only for the .wrapper part of the body*/
+.wrapper {
+    background-color:#aad4cf;
+    max-width: 1000px;
+    margin: auto;   
+}
+
+body {
+    background-color:#77a9a3; /* Set the color for the entire of body*/
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set style to the header*/
+h1 {
+    background-image: url(../images/lone-starfish-wide.jpg); /* Get the background image from the images folder */
+    text-align:center;
+    text-transform: capitalize; /* Ensure the first letter of each word is capitalized*/
+    color: white;
+    padding: 90px; /* To create space around the text*/
+    background-size: cover;
+}
+
+/* Set style to the navigation */
+nav ul {
+   list-style: none; /* Remove bullet points from the list*/
+    display: flex; /* Aligns list in a row */
+    margin: auto; /* Centers items in <ul> */
+    padding: 10px; /* Add spaces inside <ul> */
+}
+    
+nav li a {
+    text-decoration: none; /* Remove underline of links */
+    background-color:#aad4cf;
+    color: black;
+    border-right-style: groove; /* Add groove right border */
+    padding: 10px 130px; /* Add 10px padding vertically, 130px horizontally inside each link text */
+    width: 70vw; /* Make links take 70% of the viewport width */
+    max-width: 100%; /* Ensure the width not exceed 100% of navigation */
+}
+
+/* Change color of nav button to slightly darker*/
+nav li a:hover {
+    background-color: #87c4bb; 
+    transition: 0.3s ease-in-out;
+}
+
+/* Reduce spacing when the screen is smaller than 768px */
+@media screen and (max-width: 768px) {
+    nav li a {
+        font-size: 15px; /* Reduce font size when the screen is smaller */
+        padding: 10px 40px; /* Reduce space when screen is smaller */
+    }
+}
+
+main article {
+    padding: 10px; /* Add 10px space to main article for better look and look like the mockup website, if I put it in the wrapper, the image is also added 10px spacing and it is not alike the mockup website */
+}
+
+#image1 {
+    width: 300px;
+    height: 300px;
+    float: left; /* Move image to the left, allow text to wrap around */
+}
+
+/* Set style to the form */
+#box {
+    width: 70vw; /* Set the width of 70% of the viewport width */
+    max-width: 90%; /* Ensure box does not exceed 90% of the .wrapper */
+    height: 400px;
+    border: 1px solid black;
+    padding: 20px; /* Add 20px spacing inside the box */
+    margin: 20px auto; /* Center the box horizontally and 20px vertical margin */ 
+    flex: 1; /* The box will increase or decrease when the screen is zoomed in or out */
+}
+
+#yname {
+    width: 70vw;
+    max-width: 100%;
+    margin-bottom: 15px; /* Add 15px space below each field */
+}
+
+#yemail {
+    width: 70vw;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+#ymessage {
+    width: 70vw;
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color:#aad4cf;
+    color: black;
+    padding: 10px 10px;
+    border: solid black;
+    cursor: pointer; /* Change the cursor to pointer when click on the button */
+}
+
+/* Change the color of background and text of button within 0.3s */
+button:hover {
+    background-color:#77a9a3;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.margin-bottom {
+    margin-bottom: 15px; /* (optional) Add 15px space below because I just wanna make it looks like the mockup website as much as I can */
+}
+
+footer p {
+    text-align: right;
+}
