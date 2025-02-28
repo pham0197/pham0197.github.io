@@ -12,13 +12,18 @@ body {
 }
 
 /* Set style to the header*/
-h1 {
+.header-container {
     background-image: url(../images/lone-starfish-wide.jpg); /* Get the background image from the images folder */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.site-title {
     text-align:center;
     text-transform: capitalize; /* Ensure the first letter of each word is capitalized*/
     color: white;
     padding: 90px; /* To create space around the text*/
-    background-size: cover;
 }
 
 /* Set style to the navigation */
@@ -67,7 +72,7 @@ main article {
 #box {
     width: 70vw; /* Set the width of 70% of the viewport width */
     max-width: 90%; /* Ensure box does not exceed 90% of the .wrapper */
-    height: 400px;
+    height: 450px;
     border: 1px solid black;
     padding: 20px; /* Add 20px spacing inside the box */
     margin: 20px auto; /* Center the box horizontally and 20px vertical margin */ 
@@ -76,12 +81,14 @@ main article {
 
 #yname {
     width: 70vw;
+    height: 30px;
     max-width: 100%;
     margin-bottom: 15px; /* Add 15px space below each field */
 }
 
 #yemail {
     width: 70vw;
+    height: 30px;
     max-width: 100%;
     margin-bottom: 15px;
 }
@@ -89,7 +96,7 @@ main article {
 #ymessage {
     width: 70vw;
     max-width: 100%;
-    height: 100px;
+    height: 120px;
     margin-bottom: 15px;
 }
 
