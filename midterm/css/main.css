@@ -21,9 +21,11 @@ body {
 
 .site-title {
     text-align:center;
+    font-size: 3rem;
+    padding: 180px 0px 0px 0px;  /* To create the top space around the text to avoid text cover the starfish */
     text-transform: capitalize; /* Ensure the first letter of each word is capitalized*/
     color: white;
-    padding: 90px; /* To create space around the text*/
+    
 }
 
 /* Set style to the navigation */
