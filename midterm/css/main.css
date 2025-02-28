@@ -67,7 +67,7 @@ main article {
 #image1 {
     width: 300px;
     height: 300px;
-    padding: 0px 20px 0px 0px; /* Add 20px space to the right of image to put distance between text and image */
+    padding: 0px 20px 20px 0px; /* Add 20px space to the right and the bottom of image to put distance between text and image */
     float: left; /* Move image to the left, allow text to wrap around */
 }
 
