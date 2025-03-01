@@ -25,7 +25,6 @@ body {
     padding: 180px 0px 0px 0px;  /* To create the top space around the text to avoid text cover the starfish */
     text-transform: capitalize; /* Ensure the first letter of each word is capitalized*/
     color: white;
-    
 }
 
 /* Set style to the navigation */
