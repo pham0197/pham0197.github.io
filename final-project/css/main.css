@@ -99,7 +99,7 @@ nav li a:hover {
 
 /* Welcome Article */
 .welcome {
-    background-image: url('/images/main-banner.jpg');
+    background-image: url(../images/main-banner.jpg);
     background-size: cover;
     background-position: center;
     min-height: 800px;
@@ -266,7 +266,7 @@ nav li a:hover {
 
 /* Vision Section */
 .vision {
-    background-image: url('/images/vision.jpg');
+    background-image: url(../images/vision.jpg);
     background-size: cover;
     background-position: center;
     padding: 40px 20px;
